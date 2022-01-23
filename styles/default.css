@@ -1,0 +1,21 @@
+background {
+    color: grey;
+}
+navyfont {
+    color: 03045E;
+}
+imagecaption {
+    font-style: italic;
+    color: 023E8A;
+    text-align: center;
+}
+imagemargins {
+    margin: 10%;
+    padding: 10%;
+}
+header {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
