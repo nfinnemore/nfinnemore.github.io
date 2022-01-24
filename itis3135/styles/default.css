@@ -2,7 +2,7 @@ background {
     color: grey;
 }
 navyfont {
-    color: 03045E;
+    color: #000080;
 }
 imagecaption {
     font-style: italic;
@@ -15,12 +15,24 @@ imagemargins {
 }
 header {
     text-align: center;
-    color: 03045E;
+}
+h2 {
+    text-align: center;
 }
 footer {
     text-align: center;
 }
 body {
     background-color: grey;
-    color: 03045E;
+    color: #000080;
+}
+ul {
+    color:#000080;
+}
+figure {
+    text-align: center;
+
+}
+figcaption {
+    font-style: italic;
 }
