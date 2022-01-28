@@ -20,6 +20,7 @@ h2 {
 }
 footer {
     text-align: center;
+    margin-top: auto;
 }
 body {
     background-color: grey;
@@ -50,4 +51,10 @@ th
 }
 tr:nth-child(even) {
     background-color: lightgray;
+}
+h3 {
+    text-align: center;
+}
+ol {
+    align-content: center;
 }
