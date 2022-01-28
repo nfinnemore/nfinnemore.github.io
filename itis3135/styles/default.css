@@ -54,8 +54,4 @@ tr:nth-child(even) {
 h3 {
     text-align: center;
 }
-ol {
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
+
