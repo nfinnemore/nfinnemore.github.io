@@ -42,7 +42,7 @@ table
 {
     margin-left: auto;
     margin-right: auto;
-    border: black;
+    border: 1px solid black;
 }
 th
 {
@@ -59,10 +59,10 @@ form
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    color: #0404c7;
 }
 button 
 {
-    background-color: black;
+    background-color: rgb(17, 10, 10);
     color: white;
-    margin-top: 50px;
 }
