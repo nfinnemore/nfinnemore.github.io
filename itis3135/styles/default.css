@@ -1,19 +1,9 @@
-background {
-    color: grey;
-}
-navyfont {
-    color: #000080;
-}
-imagecaption {
-    font-style: italic;
-    text-align: center;
-}
-imagemargins {
-    margin: 10%;
-    padding: 10%;
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header {
     text-align: center;
+    
 }
 h2 {
     text-align: center;
@@ -24,6 +14,7 @@ footer {
 body {
     background-color: grey;
     color: #000080;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 ul {
     color:#000080;
