@@ -59,10 +59,10 @@ function validateSide(sides)
 {
     sides = parseFloat(sides);
     sides = Math.abs(sides);
+    sides = Math.round(sides);
     while(isNaN(sides) || sides > 10)
     {
         sides = prompt("Error: Please reenter a number between 1 and 10")
     }
-    _sides = Math.round(sides);
-    return _sides;
+    return sides;
 }
