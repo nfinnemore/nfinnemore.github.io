@@ -59,3 +59,73 @@ button
     background-color: rgb(17, 10, 10);
     color: white;
 }
+
+.slideshowContainer 
+{
+    position: relative;
+    margin:auto;
+    max-width: 1000px;
+}
+.slides
+{
+    display: none;
+    
+
+}
+.prev,.next
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.numberText
+{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: relative;
+    top: 0;
+}
+.text
+{
+    text-align: center;
+    font-size: 15px;
+    padding: 2px 16px;
+    color: white;
+    width: 100%;
+    position: relative;
+}
+.dot
+{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    border-radius: 50%;
+    background-color: rgb(54, 52, 52);
+    display: inline-block;
+    color:black;
+}
+.active,.dot:hover 
+{
+    background-color: #000000;
+}
+.slideImage
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
