@@ -1,0 +1,48 @@
+footer 
+{
+    text-align: center;
+    margin-top: 1%;
+}
+a:link, a:visited
+{
+    text-decoration: none;
+    color: #144091
+}
+h2 
+{
+    text-align: center;
+}
+p
+{
+    margin-left: 3%;
+}
+h1
+{
+    text-align: center;
+    color: #272932;
+    background-color: #3C5F7D;
+}
+nav
+{
+    text-align: center;
+    color: #272932;
+}
+img
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+table 
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+figure
+{
+    text-align: center;
+}
+body
+{
+    background-color: #4D7EA8;
+    color: #272932;
+}
