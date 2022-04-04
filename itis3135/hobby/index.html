@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Nick Finnemore | ITIS 3135 | Hobby
+    </title>
+  </head>
+
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#section1" id="button1" onclick=switchSection1()>Homepage</a></li>
+                <li><a href="#section2" id="button2" onclick=switchSection2()>Terraria</a></li>
+                <li><a href="#section3" id="button3" onclick=switchSection3()>League of Legends</a></li>
+                <li><a href="#section4" id="button4" onclick=switchSection4()>Counter Strike</a></li>
+                <li><a href="#section5" id="button5" onclick=switchSection5()>Dead by Daylight</a></li>
+                <li><a href="#section6" id="button6" onclick=switchSection6()>Valorant</a></li>
+            </ul>
+        </nav>
+      <style>
+          body {
+              background-color: azure;
+          }
+          ul {
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: rgb(38, 38, 192);
+          }
+          li {
+
+              float: left;
+          }
+          li a {
+              display: block;
+              padding: 12px 12px;
+              text-decoration: none;
+              text-align: center;
+              color: rgb(235, 228, 228);
+          }
+         li a:hover {
+            background-color: rgb(13, 13, 102)
+          }
+      </style>
+    </header>
+    <main>
+        <br>
+        <h1 style="text-align: center;">
+            Nick Finnemore ITIS3135 Hobby Information
+        </h1>
+        <section id="section1" class="section1">
+            <h2>
+                Video Games
+            </h2>
+            <p>
+                One of my hobbies is playing video games. I mostly play multiplayer games as I find them the most fun when I'm online with my friends.
+                I've played a lot of games through out the years, but here are a few of my favorites.
+            </p>
+        </section>
+        <section id="section2" class="section2" style="display:none">
+            <h2>
+                Terraria
+            </h2>
+            <p>
+                Terraria is a single or multiplayer game featuring adventuring, intense boss fights, and building as its key features. Over covid I beat a modded version of the game with my friends which took over 100 hours.
+                <table>
+                    <th>The Final Boss - The Moon Lord</th>
+                    <th>The Game's Homescreen</th>
+                    <tr>
+                        <tr>
+                            <td>
+                                <img src="images/moonlord.png" alt="UI of Shotcut"/>
+                            </td>
+                            <td>
+                                <img src="images/terraria.jpg" alt="UI of Shotcut"/>
+                            </td>
+                        </tr>
+                    </tr>
+                </table>
+            </p>
+        </section>
+        <section id="section3" class="section3" style="display:none">
+            <h2>
+                League of Legends
+            </h2>
+            <p>
+                filler text
+            </p>
+        </section> 
+        <section id="section4" class="section4" style="display:none">
+            <h2>
+                Counter Strike
+            </h2>
+            <p>
+                filler text
+            </p>
+        </section> 
+        <section id="section5" class="section5" style="display:none">
+            <h2>
+                Dead by Daylight
+            </h2>
+            <p>
+                filler text
+            </p>
+        </section> 
+        <section id="section6" class="section6" style="display:none">
+            <h2>
+                Valorant
+            </h2>
+            <p>
+                filler text
+            </p>
+        </section> 
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/htmlinclude.js"></script>
+    <script src ="scripts/hobby.js"></script>
+  </body>
+
+</html>
