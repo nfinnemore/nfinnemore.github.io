@@ -6,20 +6,23 @@
     <title>
       Nick Finnemore | ITIS 3135 | Hobby
     </title>
-  </head>
-
-  <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#section1" id="button1" onclick=switchSection1()>Homepage</a></li>
-                <li><a href="#section2" id="button2" onclick=switchSection2()>Terraria</a></li>
-                <li><a href="#section3" id="button3" onclick=switchSection3()>League of Legends</a></li>
-                <li><a href="#section4" id="button4" onclick=switchSection4()>Counter Strike</a></li>
-                <li><a href="#section5" id="button5" onclick=switchSection5()>Dead by Daylight</a></li>
-            </ul>
-        </nav>
-      <style>
+        <style>
+        image {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 2%;
+        }
+        a {
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            margin-top: 10%;
+        }
           body {
               background-color: azure;
           }
@@ -48,7 +51,21 @@
          li a:hover {
             background-color: rgb(13, 13, 102)
           }
-      </style>
+    </style>
+  </head>
+
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#section1" id="button1" onclick=switchSection1()>Homepage</a></li>
+                <li><a href="#section2" id="button2" onclick=switchSection2()>Terraria</a></li>
+                <li><a href="#section3" id="button3" onclick=switchSection3()>League of Legends</a></li>
+                <li><a href="#section4" id="button4" onclick=switchSection4()>Counter Strike</a></li>
+                <li><a href="#section5" id="button5" onclick=switchSection5()>Dead by Daylight</a></li>
+            </ul>
+        </nav>
+
     </header>
     <main>
         <br>
@@ -160,24 +177,6 @@
                 </table>
                 <p>Image found on <a href="https://www.nintendo.co.uk/Games/Nintendo-Switch-games/Dead-by-Daylight-1576022.html">The game's storepage</a> and <a href="https://media.deadbydaylight.com/en">It's official website.</a></p>
         </section> 
-        <style>
-            image {
-                margin-left: auto;
-                margin-right: auto;
-            }
-            table {
-                margin-left: auto;
-                margin-right: auto;
-                padding: 2%;
-            }
-            a {
-                text-decoration: none;
-            }
-            footer {
-                text-align: center;
-                margin-top: 10%;
-            }
-        </style>
     </main>
     <div data-include="components/footer.html"></div>
     <script src="scripts/htmlinclude.js"></script>
