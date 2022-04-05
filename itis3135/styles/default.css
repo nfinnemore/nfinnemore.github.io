@@ -31,7 +31,8 @@ figcaption {
     font-style: italic;
 }
 a {
-    color: #ADD8E6
+    color: #ADD8E6;
+    text-decoration: none;
 }
 table
 {

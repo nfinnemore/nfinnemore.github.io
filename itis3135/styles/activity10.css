@@ -26,3 +26,7 @@ li
     padding-right: 10px;
     display: inline;
 }
+a {
+    text-decoration: none;
+    color: #ADD8E6;
+}

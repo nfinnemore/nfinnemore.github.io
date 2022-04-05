@@ -1,10 +1,7 @@
 $(document).ready(function() 
 {
-
-
     // preload the image for each link
     $("#image_list a").each(function() {
-        let caption = $(this).attr("title");
         let image = new Image();
         image.src = $(this).attr("href");
     });
@@ -21,6 +18,6 @@ $(document).ready(function()
             });
 
 // move the focus to the first link
-$("li:first-child a").focus();
+$('a').first().focus();
 
 }); // end ready
