@@ -13,7 +13,7 @@ $(document).ready(function()
                 let imagePath = $(this).attr("href");
                 let caption = $(this).attr("title");
                 $("#caption").text(caption);
-                $("#image").attr("src",imagePath);
+                $("#image").hide().fadeIn("1000").attr("src",imagePath);
             
 
         // cancel the default action of each link
