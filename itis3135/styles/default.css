@@ -139,7 +139,11 @@ button
     display: inline;
 }
 .imageSwap h1, h2, ul, p, img {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     text-align: center;
 }
+nav {
+    text-align: center;
+}
+
