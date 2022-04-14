@@ -7,15 +7,15 @@ $(document).ready(function()
     });
     // set up the event handlers for each link
     $("#image_list a").click(function(event) {
-        let imagePath = $(this).attr("href");
+        image = $(this).attr("href");
         let caption = $(this).attr("title");
         $("#caption").text(caption);
-        $("#image").hide().fadeIn("1000").attr("src",imagePath)
+        $("#image").hide().fadeIn("1000").attr("src",image)
         // cancel the default action of each link
         event.preventDefault();
         });
 
-// move the focus to the first link
-$("li:first-child a").focus();
+    // move the focus to the first link
+    $("li:first-child a").focus();
 
 }); // end ready
