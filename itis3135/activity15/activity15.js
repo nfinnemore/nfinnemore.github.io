@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    // edited code from activity 13
     $.ajax({
         type: "get",
         url: "facultyList.json",
