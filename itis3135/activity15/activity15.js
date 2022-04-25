@@ -13,7 +13,7 @@ $(document).ready(function(){
         success: function(data) {
             $("main").html("");
             $.each(data,function(){
-                $.each("facultyMembers", function(key,value){
+                $.each(this, function(key, value){
                     $("main").append(
                         "<img src = " + value.image + ">" +
                         "<h2>" + value.full_name + "</h1>" + 
