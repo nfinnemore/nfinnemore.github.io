@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    $("#accordion").accordion({
-        collabible: true,
+    $("#accordion").accordion ({
+        collapsible: true,
         heightStyle: "content"
 
     });
