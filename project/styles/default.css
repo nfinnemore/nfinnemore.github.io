@@ -3,10 +3,14 @@ footer
     text-align: center;
     margin-top: 1%;
 }
+header
+{
+    background-color: #3C5F7D;
+}
 a:link, a:visited
 {
     text-decoration: none;
-    color: #12377c
+    color: #144091
 }
 h2 
 {
@@ -26,7 +30,6 @@ nav
 {
     text-align: center;
     color: #272932;
-    background-color: #272932;
 }
 img
 {
